@@ -1,0 +1,17 @@
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\debug\anycpu\resources.pri
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\debug\anycpu\CordovaApp.Windows.build.appxrecipe
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\priconfig.xml
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\layout.resfiles
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\resources.resfiles
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\pri.resfiles
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\qualifiers.txt
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\package.map.txt
+C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\windows\bld\_pkginfo.txt

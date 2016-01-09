@@ -1,0 +1,114 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ADALProxy\"><param name=\"android-package\" value=\"com.microsoft.aad.adal.CordovaAdalPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.MANAGE_ACCOUNTS\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.USE_CREDENTIALS\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest/application": [
+                        {
+                            "xml": "<activity android:name=\"com.microsoft.aad.adal.AuthenticationActivity\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "io.cordova.myapp5bd0ce"
+        },
+        "cordova-plugin-ms-adal": {
+            "PACKAGE_NAME": "io.cordova.myapp5bd0ce"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js",
+            "id": "org.apache.cordova.inappbrowser.inappbrowser",
+            "pluginId": "org.apache.cordova.inappbrowser",
+            "clobbers": [
+                "window.open"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-ms-adal/www/utility.js",
+            "id": "cordova-plugin-ms-adal.utility",
+            "pluginId": "cordova-plugin-ms-adal",
+            "runs": true
+        },
+        {
+            "file": "plugins/cordova-plugin-ms-adal/www/AuthenticationContext.js",
+            "id": "cordova-plugin-ms-adal.AuthenticationContext",
+            "pluginId": "cordova-plugin-ms-adal",
+            "clobbers": [
+                "Microsoft.ADAL.AuthenticationContext"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-ms-adal/www/CordovaBridge.js",
+            "id": "cordova-plugin-ms-adal.CordovaBridge",
+            "pluginId": "cordova-plugin-ms-adal"
+        },
+        {
+            "file": "plugins/cordova-plugin-ms-adal/www/AuthenticationResult.js",
+            "id": "cordova-plugin-ms-adal.AuthenticationResult",
+            "pluginId": "cordova-plugin-ms-adal"
+        },
+        {
+            "file": "plugins/cordova-plugin-ms-adal/www/TokenCache.js",
+            "id": "cordova-plugin-ms-adal.TokenCache",
+            "pluginId": "cordova-plugin-ms-adal"
+        },
+        {
+            "file": "plugins/cordova-plugin-ms-adal/www/TokenCacheItem.js",
+            "id": "cordova-plugin-ms-adal.TokenCacheItem",
+            "pluginId": "cordova-plugin-ms-adal"
+        },
+        {
+            "file": "plugins/cordova-plugin-ms-adal/www/UserInfo.js",
+            "id": "cordova-plugin-ms-adal.UserInfo",
+            "pluginId": "cordova-plugin-ms-adal"
+        }
+    ]
+}

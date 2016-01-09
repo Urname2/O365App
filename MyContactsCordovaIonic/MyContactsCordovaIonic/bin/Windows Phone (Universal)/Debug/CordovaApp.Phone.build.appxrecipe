@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NOLJBRAEKKE01</Machine>
+    <WindowsUser>jbraekke</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f9d6fec0-b3d9-11e5-82ad-739659542b70</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\phone\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\phone\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\SplashScreenPhone.scale-240.png">
+      <PackagePath>images\SplashScreenPhone.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\Square150x150Logo.scale-240.png">
+      <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\Square44x44Logo.scale-240.png">
+      <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\Square71x71Logo.scale-240.png">
+      <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\StoreLogo.scale-240.png">
+      <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\images\Wide310x150Logo.scale-240.png">
+      <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\app\app.js">
+      <PackagePath>www\app\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\app\controllers.js">
+      <PackagePath>www\app\controllers.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\app\services.js">
+      <PackagePath>www\app\services.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\angular-ui\angular-ui-router.js">
+      <PackagePath>www\lib\ionic\js\angular-ui\angular-ui-router.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\angular-ui\angular-ui-router.min.js">
+      <PackagePath>www\lib\ionic\js\angular-ui\angular-ui-router.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\angular\angular-animate.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-animate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\angular\angular-animate.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-animate.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\angular\angular-resource.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-resource.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\angular\angular-resource.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-resource.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\angular\angular-sanitize.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-sanitize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\angular\angular-sanitize.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-sanitize.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\angular\angular.js">
+      <PackagePath>www\lib\ionic\js\angular\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\angular\angular.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\ionic-angular.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\ionic-angular.min.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\ionic.bundle.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\ionic.bundle.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\ionic.js">
+      <PackagePath>www\lib\ionic\js\ionic.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\js\ionic.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\plugins\org.apache.cordova.inappbrowser\src\windows\InAppBrowserProxy.js">
+      <PackagePath>www\plugins\org.apache.cordova.inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js">
+      <PackagePath>www\plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\scripts\jquery-2.1.4.intellisense.js">
+      <PackagePath>www\scripts\jquery-2.1.4.intellisense.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\scripts\jquery-2.1.4.js">
+      <PackagePath>www\scripts\jquery-2.1.4.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\scripts\jquery-2.1.4.min.js">
+      <PackagePath>www\scripts\jquery-2.1.4.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\services\office365\scripts\exchange.js">
+      <PackagePath>www\services\office365\scripts\exchange.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\services\office365\scripts\InAppBrowserOverride.js">
+      <PackagePath>www\services\office365\scripts\InAppBrowserOverride.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\services\office365\scripts\o365auth.js">
+      <PackagePath>www\services\office365\scripts\o365auth.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\services\office365\scripts\o365discovery.js">
+      <PackagePath>www\services\office365\scripts\o365discovery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\services\office365\scripts\o365loader.js">
+      <PackagePath>www\services\office365\scripts\o365loader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\services\office365\scripts\sharepoint.js">
+      <PackagePath>www\services\office365\scripts\sharepoint.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\services\office365\scripts\utility.js">
+      <PackagePath>www\services\office365\scripts\utility.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\services\office365\settings\settings.js">
+      <PackagePath>www\services\office365\settings\settings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\app\templates\view-contact.html">
+      <PackagePath>www\app\templates\view-contact.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\app\templates\view-home.html">
+      <PackagePath>www\app\templates\view-home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\app\templates\view-menu.html">
+      <PackagePath>www\app\templates\view-menu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\services\office365\redirectTarget.html">
+      <PackagePath>www\services\office365\redirectTarget.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\css\app.css">
+      <PackagePath>www\css\app.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\css\ionic.css">
+      <PackagePath>www\lib\ionic\css\ionic.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\css\ionic.min.css">
+      <PackagePath>www\lib\ionic\css\ionic.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\fonts\ionicons.eot">
+      <PackagePath>www\lib\ionic\fonts\ionicons.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\fonts\ionicons.svg">
+      <PackagePath>www\lib\ionic\fonts\ionicons.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\fonts\ionicons.ttf">
+      <PackagePath>www\lib\ionic\fonts\ionicons.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\fonts\ionicons.woff">
+      <PackagePath>www\lib\ionic\fonts\ionicons.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\ionic.scss">
+      <PackagePath>www\lib\ionic\scss\ionic.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\ionicons\ionicons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\ionicons.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-font.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-font.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-icons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-icons.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-variables.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-variables.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_action-sheet.scss">
+      <PackagePath>www\lib\ionic\scss\_action-sheet.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_animations.scss">
+      <PackagePath>www\lib\ionic\scss\_animations.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_backdrop.scss">
+      <PackagePath>www\lib\ionic\scss\_backdrop.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_badge.scss">
+      <PackagePath>www\lib\ionic\scss\_badge.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_bar.scss">
+      <PackagePath>www\lib\ionic\scss\_bar.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_button-bar.scss">
+      <PackagePath>www\lib\ionic\scss\_button-bar.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_button.scss">
+      <PackagePath>www\lib\ionic\scss\_button.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_checkbox.scss">
+      <PackagePath>www\lib\ionic\scss\_checkbox.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_form.scss">
+      <PackagePath>www\lib\ionic\scss\_form.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_grid.scss">
+      <PackagePath>www\lib\ionic\scss\_grid.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_items.scss">
+      <PackagePath>www\lib\ionic\scss\_items.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_list.scss">
+      <PackagePath>www\lib\ionic\scss\_list.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_loading.scss">
+      <PackagePath>www\lib\ionic\scss\_loading.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_menu.scss">
+      <PackagePath>www\lib\ionic\scss\_menu.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_mixins.scss">
+      <PackagePath>www\lib\ionic\scss\_mixins.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_modal.scss">
+      <PackagePath>www\lib\ionic\scss\_modal.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_platform.scss">
+      <PackagePath>www\lib\ionic\scss\_platform.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_popover.scss">
+      <PackagePath>www\lib\ionic\scss\_popover.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_popup.scss">
+      <PackagePath>www\lib\ionic\scss\_popup.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_progress.scss">
+      <PackagePath>www\lib\ionic\scss\_progress.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_radio.scss">
+      <PackagePath>www\lib\ionic\scss\_radio.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_range.scss">
+      <PackagePath>www\lib\ionic\scss\_range.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_refresher.scss">
+      <PackagePath>www\lib\ionic\scss\_refresher.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_reset.scss">
+      <PackagePath>www\lib\ionic\scss\_reset.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_scaffolding.scss">
+      <PackagePath>www\lib\ionic\scss\_scaffolding.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_select.scss">
+      <PackagePath>www\lib\ionic\scss\_select.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_slide-box.scss">
+      <PackagePath>www\lib\ionic\scss\_slide-box.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_spinner.scss">
+      <PackagePath>www\lib\ionic\scss\_spinner.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_tabs.scss">
+      <PackagePath>www\lib\ionic\scss\_tabs.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_toggle.scss">
+      <PackagePath>www\lib\ionic\scss\_toggle.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_transitions.scss">
+      <PackagePath>www\lib\ionic\scss\_transitions.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_type.scss">
+      <PackagePath>www\lib\ionic\scss\_type.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_util.scss">
+      <PackagePath>www\lib\ionic\scss\_util.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\scss\_variables.scss">
+      <PackagePath>www\lib\ionic\scss\_variables.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\lib\ionic\version.json">
+      <PackagePath>www\lib\ionic\version.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\www\scripts\jquery-2.1.4.min.map">
+      <PackagePath>www\scripts\jquery-2.1.4.min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jbraekke\Desktop\Project\MyContactsCordovaIonic\MyContactsCordovaIonic\platforms\windows\build\phone\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\">
+      <Name>Microsoft.Phone.WinJS.2.1</Name>
+      <Version>1.0.9651.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Phone.WinJS.2.1, MinVersion=1.0.9651.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\Microsoft.Phone.WinJS.2.1.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

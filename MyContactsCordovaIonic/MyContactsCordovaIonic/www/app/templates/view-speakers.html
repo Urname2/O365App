@@ -1,0 +1,26 @@
+﻿<ion-view view-title="Speakers">
+    <ion-nav-buttons side="right">
+        <button class="button button-clear icon ion-plus" ng-click="add()" ng-show="canAdd"></button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <ion-refresher on-refresh="refresh(true)" spinner="none"></ion-refresher>
+        <ion-list>
+            <ion-item item="item" ng-hide="speakers.length > 0">
+                No Speakers...pull to refresh
+            </ion-item>
+            <ion-item class="item-remove-animate item-avatar item-icon-right" item="item" ng-repeat="speaker in speakers">
+                <img ng-src="{{speaker.Image}}"> 
+                <h2>{{speaker.Title}}</h2>
+                <p>{{speaker.SubTitle}}</p>
+                
+                <!-- option buttons via slide to left -->
+                <ion-option-button class="button-positive icon ion-edit" data-ng-click="edit(speaker)">
+
+                </ion-option-button>
+                <ion-option-button class="button-balanced icon ion-trash-a" data-ng-click="delete(speaker)">
+
+                </ion-option-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
